@@ -1,0 +1,83 @@
+/* Common Styles */
+
+* {
+    color: #FFFFFF;
+    font-family: 'Inter', Courier, monospace;
+    font-size: 20px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.background {
+    background-color: #232323;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.workbox {
+    width: 360px;
+    height: 800px;
+}
+
+.header_tab {
+    display: flex;
+    justify-content: space-between;
+    width: 328px;
+    height: 30px;
+    margin: 16px;
+}
+
+.header_tab .right_side {
+    display: flex;
+}
+
+.user_tab {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 148px;
+}
+
+.user_name {
+    font-style: italic;
+    margin: 3px;
+}
+
+/* Main Page */
+
+.level_display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 45px;
+}
+
+.level_display p {
+    margin: 0;
+}
+
+.level_text {
+    font-weight: 900;
+}
+
+.to_next_level {
+    font-size: 11px;
+}
+
+/* List Pad */
+
+.list_item {
+    display: flex;
+}
+
+.list_item p {
+    margin-left: 5px;
+}
